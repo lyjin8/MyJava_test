@@ -1,7 +1,6 @@
-package ly.sparsearry;
+package ly.dataStructures.sparsearry;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class Demo01 {
     public static void main(String[] args) {

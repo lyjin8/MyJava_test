@@ -1,4 +1,4 @@
-package ly.sparsearry;
+package ly.dataStructures.sparsearry;
 
 import java.util.List;
 import java.util.stream.Collectors;

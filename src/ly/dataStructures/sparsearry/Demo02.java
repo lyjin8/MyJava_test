@@ -1,4 +1,4 @@
-package ly.sparsearry;
+package ly.dataStructures.sparsearry;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

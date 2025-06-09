@@ -1,4 +1,4 @@
-package ly.sparsearry;
+package ly.dataStructures.sparsearry;
 
 public class ArrayObjectDemo06 {
     //对象数组
