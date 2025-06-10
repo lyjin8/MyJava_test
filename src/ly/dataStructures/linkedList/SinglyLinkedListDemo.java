@@ -47,12 +47,12 @@ class SingleLinkedList{
             System.out.println("链表为空");
             return;
         }
-        PersonNode temp = head;//头节点无法随意更改，所以创建中间变量
+        PersonNode temp = head.next;//头节点无法随意更改，所以创建中间变量
         /*
         循环的次数假设为n(n为链表长度)
         时间复杂度为O(n)
          */
-        while (temp.next != null)
+        while (temp != null)
         {
             System.out.println(temp);
             //temp后移
