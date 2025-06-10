@@ -7,6 +7,8 @@ import java.util.stream.Stream;
  * 找朋友：把每个朋友都遍历出来，每个朋友都有编号
  * 1、不安顺序遍历
  * 2、按编号顺序遍历
+ * 程序的时间复杂度为O(n)
+ * 空间复杂度为O(n)
  */
 public class SinglyLinkedListDemo {
     public static void main(String[] args) {
@@ -46,6 +48,10 @@ class SingleLinkedList{
             return;
         }
         PersonNode temp = head;//头节点无法随意更改，所以创建中间变量
+        /*
+        循环的次数假设为n(n为链表长度)
+        时间复杂度为O(n)
+         */
         while (temp.next != null)
         {
             System.out.println(temp);
